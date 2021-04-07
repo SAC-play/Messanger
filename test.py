@@ -9,4 +9,4 @@ def post_message(token, channel, text):
  
 myToken = "xoxb-1829797681845-1910880424580-nKuFbTsHvjGzp2THw4S1gu1Z"
  
-post_message(myToken,"#bott","Hello Slack World")
+post_message(myToken,"#bott","We can do anything")
