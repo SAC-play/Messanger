@@ -3,7 +3,8 @@ import threading
  
 #함수 정의, 함수 내부에 threading 정의
 def printhello():
-    print(datetime)
+    input("to fishish this program input enter")
+    print("greetings!")
     
     #threading을 정의한다. 5초마다 반복 수행함.
     threading.Timer(5, printhello).start()
@@ -13,7 +14,7 @@ printhello()
 
 
 import time
-import schedule
+import schedule #
  
 #특정 함수 정의
 def printhello():
